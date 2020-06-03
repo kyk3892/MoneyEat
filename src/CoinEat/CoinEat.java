@@ -75,7 +75,7 @@ public class CoinEat extends JFrame {
 					
 			}
 			
-			//키를 뗏을 때 실행 할 메소드
+			//키를 뗐을 때 실행 할 메소드
 			public void keyReleased(KeyEvent e) {
 				switch(e.getKeyCode()) {
 				case KeyEvent.VK_W:
