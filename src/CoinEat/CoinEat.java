@@ -41,14 +41,13 @@ public class CoinEat extends JFrame {
 	private int coinHeight = coin.getHeight(null);
 	
 	private int score;
-	private int time;
-	
+
 	private boolean up, down, left, right;
 	
 	
 	//창 만들기
 	public CoinEat() {
-		setTitle("강아지 먹이");
+		setTitle("♬Dog Sweet♬");
 		setVisible(true);
 		setSize(700, 700);
 		setLocationRelativeTo(null); //setLocationRelativeTo의 경우 괄호안에 null을 넣으면 실행 시 창이 화면 가운데에 뜸
